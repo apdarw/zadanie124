@@ -12,8 +12,6 @@ int main() {
     printf("\nPodaj dlugosc drugiego boku: ");
     scanf ("%f", &szerokosc);
 
-    pole = dlugosc * szerokosc;
-
 	pole = pole_prostokata(dlugosc, szerokosc);
     printf ("\nPole prostokata wynosi: %.2f", pole);
     printf("\n");
